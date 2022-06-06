@@ -1,0 +1,47 @@
+a= "Hello everyone!"
+b= "It is pleasure to meet you."
+c= "My name is Nikki!"
+print (a, b, c)
+
+e=5
+f=int(5)
+j=str(5)
+k=int('5')
+l=str('5')
+print (e,f,j,k,l)
+
+print ('How are you?')
+name=input()
+print('Hello' +   name + '!')
+
+x=9
+if x>0:
+    print ('Your number is bigger than zero')
+else:
+    print ('Your number is equal or less than zero')
+
+y=int(input('Add your number'))
+if y%2==0:
+    print ('even')
+else:
+    print ('odd')
+
+if 1>0: print ('Yes, 1 is bigger 0')
+if not (1<0): print ('1 is still bigger than 0')
+
+var1=41
+var2=31
+if var1>var2:
+    print ('var1>var2')
+elif var1<var2:
+    print ('var1<var2')
+else:
+    print ('var1=var2')
+
+n=551
+m=552
+print ('n>m') if n>m else print ('n=m') if n==m else print ('n<m')
+
+words = ["Hello","Friend", "!", "Wau"]
+print (words [1])
+print (words [0:3])
